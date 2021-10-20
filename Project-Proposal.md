@@ -1,5 +1,5 @@
 # Project Report Title
-**Authors** 
+**Authors** :
 Colin Campbell (c_c953), Jake Worden (jrw294), Leah Lewis (lrl68) and Ryan Wakabayashi (rjw102)
 
 **Abstract** : It is a standalone section. It is written to give the reader a summary of your work. Be sure to specific, yet brief. Even though the abstract comes first in your paper, it is sometimes easier to write the abstract last. (150-300 words)
