@@ -1,4 +1,4 @@
-# Project Report Title
+# Predicting Diameter and Potential Harm of Asteroids using Machine Learning
 **Authors** :
 Colin Campbell (c_c953), Jake Worden (jrw294), Leah Lewis (lrl68) and Ryan Wakabayashi (rjw102)
 
