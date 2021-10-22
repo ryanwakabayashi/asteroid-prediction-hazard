@@ -57,6 +57,8 @@ Justify your methods in terms of the problem statement. What did you consider bu
 * There are 839714 instances in the dataset representing asteroids in our solar system
 
 **Features**
+| Column | Description |
+| ------- | ----------------- |
 | a | semi-major axis(au)|
 | e | eccentricity |
 i => Inclination with respect to x-y ecliptic plain(deg)
