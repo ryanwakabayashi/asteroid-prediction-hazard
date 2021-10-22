@@ -52,6 +52,9 @@ Answer the questions from *Motivation* (Sec 31.), *Composition* (Sec 3.2), and *
 
 Justify your methods in terms of the problem statement. What did you consider but *not* use? In particular, be sure to include every method you tried, even if it didn't "work". When describing methods that didn't work, make clear how they failed and any evaluation metrics you used to decide so. How was that a data-driven decision? 
 
+* Motivation: This database was acquired from the Jet Propulsion Laboratory at California Institute of Technology's "Solar System Dynamics" 
+* This information is related to the orbits, physical and characteristics, and discovery cirumstances for most known natural bodies in our solar system
+
 **Dataset found here:** [Asteroid_Updated.csv](https://www.kaggle.com/basu369victor/prediction-of-asteroid-diameter?select=Asteroid_Updated.csv)
 
 ### Data Pre-processing, Cleaning, Labeling, and Maintenance 
