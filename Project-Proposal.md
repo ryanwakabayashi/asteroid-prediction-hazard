@@ -10,6 +10,9 @@ Your project report is the formal description of your project. The format is sim
 
 **Note:** you can transform it to Jupyter Notebook and add sections below as markdown cells. 
 
+* Asteroid diameter prediction based upon Asteroid_Updated.csv from Kaggle.
+* Based upon an asteroid diameter determine whether an asteroid is physically hazardous to Earth. 
+
 ## Problem Statement 
 * Give a clear and complete statement of the problem. 
   What is the benchmark you are using.  Why?  Where does the data come from, what are its characteristics?
@@ -21,6 +24,8 @@ Your project report is the formal description of your project. The format is sim
 * Include background material as appropriate: who cares about this problem, what impact it has, what implications better solutions might have.
 * Included a brief summary of any related work you know about.
 * Benchmark implementations - see [paperswithcode.com](paperswithcode.com) as a good start 
+
+**Link to other work:** [Asteroid Diameter Estimators with added difficulty](https://www.kaggle.com/liamkesatoran/asteroid-diameter-estimators-with-added-difficulty)
 
 ## Data Management 
 
@@ -47,9 +52,16 @@ Answer the questions from *Motivation* (Sec 31.), *Composition* (Sec 3.2), and *
 
 Justify your methods in terms of the problem statement. What did you consider but *not* use? In particular, be sure to include every method you tried, even if it didn't "work". When describing methods that didn't work, make clear how they failed and any evaluation metrics you used to decide so. How was that a data-driven decision? 
 
+**Dataset found here:** [Asteroid_Updated.csv](https://www.kaggle.com/basu369victor/prediction-of-asteroid-diameter?select=Asteroid_Updated.csv)
+
 ### Data Pre-processing, Cleaning, Labeling, and Maintenance 
 
 * Answer the questions from *Motivation, Composition, and Collection* sections of the [Datasheets For Datasets](https://arxiv.org/abs/1803.09010) paper here. 
+
+* Read the csv
+* Checked the number of Null values, if Null values are greater than 700,000 then we dropped the column
+* If the remaining column has only Nulls, it is dropped
+* If the remaining rows contain any Nulls, it is dropped
 
 ### Exploratory Data Analysis 
 
@@ -60,7 +72,6 @@ What Data Acquisition, Cleaning, and Processing Tools have you used.  Why?
 * What did you consider but *not* use? In particular, be sure to include every method you tried, even if it didn't "work". 
 
 **NOTE:** Move from .md to .ipynb format when you plan to show EDA (either project proposal or midterm checkpoint)
-
 
 ## Machine Learning Approaches
 
