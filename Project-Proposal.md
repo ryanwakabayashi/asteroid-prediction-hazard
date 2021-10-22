@@ -58,10 +58,10 @@ Justify your methods in terms of the problem statement. What did you consider bu
 
 * Answer the questions from *Motivation, Composition, and Collection* sections of the [Datasheets For Datasets](https://arxiv.org/abs/1803.09010) paper here. 
 
-* Read the csv
-* Checked the number of Null values, if Null values are greater than 700,000 then we dropped the column
-* If the remaining column has only Nulls, it is dropped
-* If the remaining rows contain any Nulls, it is dropped
+- Read the csv
+- Checked the number of Null values, if Null values are greater than 700,000 then we dropped the column
+- If the remaining column has only Nulls, it is dropped
+- If the remaining rows contain any Nulls, it is dropped
 
 ### Exploratory Data Analysis 
 
