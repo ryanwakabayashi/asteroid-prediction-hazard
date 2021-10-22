@@ -54,6 +54,18 @@ Justify your methods in terms of the problem statement. What did you consider bu
 
 * Motivation: This database was acquired from the Jet Propulsion Laboratory at California Institute of Technology's "Solar System Dynamics" 
 * This information is related to the orbits, physical and characteristics, and discovery cirumstances for most known natural bodies in our solar system
+* There are 839714 instances in the dataset representing asteroids in our solar system
+
+**Features**
+a => semi-major axis(au)
+e => eccentricity
+i => Inclination with respect to x-y ecliptic plain(deg)
+om => Longitude of the ascending node
+w => argument of perihelion
+q => perihelion distance(au)
+ad => aphelion distance(au)
+per_y => Oribital period(YEARS)
+data_arc => data arc-span(d)
 
 **Dataset found here:** [Asteroid_Updated.csv](https://www.kaggle.com/basu369victor/prediction-of-asteroid-diameter?select=Asteroid_Updated.csv)
 
