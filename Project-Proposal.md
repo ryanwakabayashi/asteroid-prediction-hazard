@@ -61,13 +61,13 @@ Justify your methods in terms of the problem statement. What did you consider bu
 | ------- | ----------------- |
 | a | semi-major axis(au)|
 | e | eccentricity |
-i => Inclination with respect to x-y ecliptic plain(deg)
-om => Longitude of the ascending node
-w => argument of perihelion
-q => perihelion distance(au)
-ad => aphelion distance(au)
-per_y => Oribital period(YEARS)
-data_arc => data arc-span(d)
+|i | Inclination with respect to x-y ecliptic plain(deg)|
+|om | Longitude of the ascending node|
+|w | argument of perihelion|
+|q | perihelion distance(au)|
+|ad | aphelion distance(au)|
+|per_y | Oribital period(YEARS)|
+|data_arc | data arc-span(d)|
 
 **Dataset found here:** [Asteroid_Updated.csv](https://www.kaggle.com/basu369victor/prediction-of-asteroid-diameter?select=Asteroid_Updated.csv)
 
