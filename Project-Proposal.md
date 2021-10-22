@@ -10,8 +10,6 @@ Your project report is the formal description of your project. The format is sim
 
 **Note:** you can transform it to Jupyter Notebook and add sections below as markdown cells. 
 
-* test this
-
 ## Problem Statement 
 * Give a clear and complete statement of the problem. 
   What is the benchmark you are using.  Why?  Where does the data come from, what are its characteristics?
