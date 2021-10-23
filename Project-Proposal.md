@@ -61,15 +61,36 @@ Justify your methods in terms of the problem statement. What did you consider bu
 	
 | Feature | Description |
 | ------- | ----------------- |
-| a | semi-major axis(au) |
-| e | eccentricity |
+| a | Semi-major axis(au) |
+| e | Eccentricity |
 | i | Inclination with respect to x-y ecliptic plain(deg) |
 | om | Longitude of the ascending node |
-| w | argument of perihelion |
-| q | perihelion distance(au) |
-| ad | aphelion distance(au) |
+| w | Argument of perihelion |
+| q | Perihelion distance(au) |
+| ad | Aphelion distance(au) |
 | per_y | Oribital period(YEARS) |
-| data_arc | data arc-span(d) |
+| data_arc | Data arc-span(d) |
+| condition_code | Orbit condition code |
+| n_obs_used | Number of Observation used |
+| H | Absolute magnitude parameter |
+| neo | Near Earth Object |
+| pha | Physically Hazardous Asteroid |
+| diameter | Diameter of asteroid(Km) |
+| extent | Object bi/tri axial ellipsoid dimensions(Km) |
+| albedo | Geometric albedo |
+| rot_per | Rotation Period(h) |
+| GM | Standard gravitational parameter, Product of mass and gravitational constant |
+| BV | Color index B-V magnitude difference |
+| UB | Color index U-B magnitude difference |
+| IR | Color index I-R magnitude difference |
+| spec_B | Spectral taxonomic type(SMASSII) |
+| spec_T | Spectral taxonomic type(Tholen) |
+| G | Magnitude slope parameter |
+| moid | Earth minimum orbit intersection distance(au) |
+| class | Asteroid orbit class |
+| n | Mean motion(deg/d) |
+| per | Orbital period(d) |
+| ma | Mean anomaly(deg) |
 
 **Dataset found here:** [Asteroid_Updated.csv](https://www.kaggle.com/basu369victor/prediction-of-asteroid-diameter?select=Asteroid_Updated.csv)
 
