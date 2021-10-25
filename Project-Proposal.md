@@ -67,38 +67,38 @@ Justify your methods in terms of the problem statement. What did you consider bu
 #### *Composition*
 * There are 839714 instances in the dataset representing asteroids in our solar system
 	
-| Feature | Description |
-| ------- | ----------------- |
-| a | Semi-major axis(au) |
-| e | Eccentricity |
-| i | Inclination with respect to x-y ecliptic plain(deg) |
-| om | Longitude of the ascending node |
-| w | Argument of perihelion |
-| q | Perihelion distance(au) |
-| ad | Aphelion distance(au) |
-| per_y | Oribital period(YEARS) |
-| data_arc | Data arc-span(d) |
-| condition_code | Orbit condition code |
-| n_obs_used | Number of Observation used |
-| H | Absolute magnitude parameter |
-| neo | Near Earth Object |
-| pha | Physically Hazardous Asteroid |
-| diameter | Diameter of asteroid(Km) |
-| extent | Object bi/tri axial ellipsoid dimensions(Km) |
-| albedo | Geometric albedo |
-| rot_per | Rotation Period(h) |
-| GM | Standard gravitational parameter, Product of mass and gravitational constant |
-| BV | Color index B-V magnitude difference |
-| UB | Color index U-B magnitude difference |
-| IR | Color index I-R magnitude difference |
-| spec_B | Spectral taxonomic type(SMASSII) |
-| spec_T | Spectral taxonomic type(Tholen) |
-| G | Magnitude slope parameter |
-| moid | Earth minimum orbit intersection distance(au) |
-| class | Asteroid orbit class |
-| n | Mean motion(deg/d) |
-| per | Orbital period(d) |
-| ma | Mean anomaly(deg) |
+| Feature | Description | Dtype |
+| ------- | ----------------- | ------|
+| a | Semi-major axis(au) | float64 |
+| e | Eccentricity | float64 |
+| i | Inclination with respect to x-y ecliptic plain(deg) | float64 |
+| om | Longitude of the ascending node | float64 |
+| w | Argument of perihelion | float64 |
+| q | Perihelion distance(au) | float64 |
+| ad | Aphelion distance(au) | float64 |
+| per_y | Oribital period(YEARS) | float64 |
+| data_arc | Data arc-span(d) | float64 |
+| condition_code | Orbit condition code | object |
+| n_obs_used | Number of Observation used | int64 |
+| H | Absolute magnitude parameter | float64 |
+| neo | Near Earth Object | object |
+| pha | Physically Hazardous Asteroid | object |
+| diameter | Diameter of asteroid(Km) | object |
+| extent | Object bi/tri axial ellipsoid dimensions(Km) | object |
+| albedo | Geometric albedo | float64 |
+| rot_per | Rotation Period(h) | float64 |
+| GM | Standard gravitational parameter, Product of mass and gravitational constant | float64 |
+| BV | Color index B-V magnitude difference | float64 |
+| UB | Color index U-B magnitude difference | float64 |
+| IR | Color index I-R magnitude difference | float64
+| spec_B | Spectral taxonomic type(SMASSII) | object |
+| spec_T | Spectral taxonomic type(Tholen) | object |
+| G | Magnitude slope parameter | float64 |
+| moid | Earth minimum orbit intersection distance(au) | float64 |
+| class | Asteroid orbit class | object |
+| n | Mean motion(deg/d) | float64 |
+| per | Orbital period(d) | float64 |
+| ma | Mean anomaly(deg) | float64 |
 
 **Dataset found here:** [Asteroid_Updated.csv](https://www.kaggle.com/basu369victor/prediction-of-asteroid-diameter?select=Asteroid_Updated.csv)
 
