@@ -10,14 +10,22 @@ Your project report is the formal description of your project. The format is sim
 
 **Note:** you can transform it to Jupyter Notebook and add sections below as markdown cells. 
 
-* Asteroid diameter prediction based upon Asteroid_Updated.csv from Kaggle.
-* Based upon an asteroid diameter determine whether an asteroid is physically hazardous to Earth. 
-
 ## Problem Statement 
 * Give a clear and complete statement of the problem. 
   What is the benchmark you are using.  Why?  Where does the data come from, what are its characteristics?
 * Include informal success measures (e.g. accuracy on cross-validated data, without specifying ROC or precision/recall etc) that you planned to use.
 * What do you hope to achieve? 
+
+* Question: How to use machine learning to predict the diameter of asteroids and classify them as physically hazardous.
+* Asteroid diameter prediction based upon Asteroid_Updated.csv from Kaggle.
+* Predict whether an asteroid is physically hazardous to Earth. 
+
+* Success measures:
+	* 5 - 10 fold CV accuracy for all models
+	* Regression models: R^2 score
+	* Classification models: Precision, Recall, ROC/AUC
+	
+* Hope to achieve >85% R^2 for regression models (based upon kaggle responses) and then >=80% for the classification models (low goal based on amount of data for imbalanced classes).
 
 ### Related Work
 
@@ -98,11 +106,10 @@ Justify your methods in terms of the problem statement. What did you consider bu
 
 * Answer the questions from *Motivation, Composition, and Collection* sections of the [Datasheets For Datasets](https://arxiv.org/abs/1803.09010) paper here. 
 
-- Read the csv
-- Checked the number of Null values, if Null values are greater than 700,000 then we dropped the column
+- Read in the .csv and visualized .head() and .info()
+- Checked the number of Null values. If the sum of null values are > 700,000, we dropped the column
 - If the remaining column has only Nulls, it is dropped
 - If the remaining rows contain any Nulls, it is dropped
-
 ### Exploratory Data Analysis 
 
 What Data Acquisition, Cleaning, and Processing Tools have you used.  Why? 
